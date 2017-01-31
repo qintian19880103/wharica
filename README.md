@@ -1,12 +1,12 @@
 # Wharica
 An application that detects watsapp messeges posted in whatsapp web then sends it to a specified number/s via sms.
 
-# Dependencies
+## Dependencies
 Wharica uses [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) and chrome, 
 to detect incoming messages in [whatsapp web](https://web.whatsapp.com/). Wharica uses [node.js](https://nodejs.org/en/) on
 the backend and [twilio](https://www.twilio.com/) to send sms.
 
-#Using Wharica
+## Using Wharica
 - Download/clone wharica
 - Install the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) extension to your google chrome
 - Add getWhatsappMsg.user.js to tampermonkey's user script
@@ -18,3 +18,6 @@ the backend and [twilio](https://www.twilio.com/) to send sms.
 - open chrome navigate to https://web.whatsapp.com make sure the tampermonkey extension is running
 - The getWhatsappMsg.user.js extension will listen for incoming messages and send it to the node server
 - The node server will send the messages to your chellphone number
+
+## Credits
+This project was made possible by the "Code For Africa" whatsapp group. 
