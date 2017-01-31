@@ -18,7 +18,7 @@ app.get("/", function(req, res) {
   // Pass in parameters to the REST API using an object literal notation. The 
   // REST client will handle authentication and response serialzation for you.
   client.sms.messages.create({
-    to: "<your cellphone number",
+    to: "<your cellphone number>",
     from: "+13473827885",
     body: msg
   }, function(error, message){
