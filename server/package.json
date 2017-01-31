@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp2sms",
+  "name": "wharica",
   "version": "1.0.0",
   "description": "Sends whatsapp group msg's via sms",
   "main": ".#app.js",
